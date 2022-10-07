@@ -61,7 +61,7 @@ a {
 .first-body {
     align-self: center;
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     padding: 120px;
     justify-content: space-around;
     gap: 0px;
@@ -75,10 +75,13 @@ a {
     margin-right: -300px;
     margin-left: 90px;
     align-self: center;
+    position: relative;
 }
 
 .first-body-right {
     display: flex;
+    position: relative;
+    flex-shrink: 1;
 }
 
 img {
@@ -94,7 +97,7 @@ img {
     color: #F9FAF8;
     align-self: flex-start;
     margin: 0;
-    flex-shrink: 1;
+    flex-shrink: 2;
 }
 
 .norm-text {
@@ -102,7 +105,7 @@ img {
     color: #E5E7EB;
     width: 90%;
     margin-top: 5px;
-    flex-shrink: 1;
+    flex-shrink: 2;
 }
 
 button {
@@ -242,4 +245,21 @@ button {
     font-size: 15px;
     padding: 10px;
     border-radius: 5px;
+}
+
+/* End of Fourth Section 
+
+    Footer Start        */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    background-color: #1f2937;
+}
+
+.footer-text {
+    font-size: 18px;
+    color: #F9FAF8;
 }
