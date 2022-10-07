@@ -130,7 +130,7 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 35px;
+    padding: 5%;
     gap: 20px;
 }
 
@@ -169,4 +169,28 @@ button {
     padding: 10px;
 }
 
+/* End of Second Section */
 
+.third {
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 7%;
+}
+
+.third-main {
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.author {
+    text-align: end;
+    font-size: 25px;
+    font-weight: bold;
+}
