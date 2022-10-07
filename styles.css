@@ -51,6 +51,7 @@ a {
 .first-body {
     align-self: center;
     display: flex;
+    flex-wrap: nowrap;
     padding: 120px;
     justify-content: space-around;
     gap: 0px;
@@ -66,12 +67,23 @@ a {
     align-self: center;
 }
 
+.first-body-right {
+    display: flex;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    flex-shrink: 1;
+}
+
 .main-text {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
     align-self: flex-start;
     margin: 0;
+    flex-shrink: 1;
 }
 
 .norm-text {
@@ -79,6 +91,7 @@ a {
     color: #E5E7EB;
     width: 90%;
     margin-top: 5px;
+    flex-shrink: 1;
 }
 
 button {
@@ -90,3 +103,43 @@ button {
     color: white;
     font-weight: 700;
 }
+
+/* End of First Section */
+
+.second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 100%;
+}
+
+.second-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+}
+
+.second-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-bottom: 20px;
+}
+
+.second-body {
+    display: flex;
+}
+
+.first-card,
+.second-card,
+.third-card,
+.fourth-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
