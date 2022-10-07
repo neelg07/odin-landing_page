@@ -1,5 +1,5 @@
 # odin-landing_page
-Project: Landing Page (TOP)
+### Project: Landing Page (TOP)
 
 I am creating an entire web page from scratch, based off of a design that is provided by The Odin Project's curriculum. 
 
