@@ -1,3 +1,12 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
 .main-container {
     display: flex;
     flex-direction: column;
@@ -16,6 +25,7 @@
     flex-direction: column;
     justify-content: space-between;
     padding-top: 20px;
+    width: 100%;
 }
 
 .logo {
@@ -111,6 +121,7 @@ button {
     justify-content: center;
     align-items: center;
     flex: 1 1 100%;
+    margin-bottom: 3%;
 }
 
 .second-main {
@@ -119,17 +130,19 @@ button {
     justify-content: center;
     align-items: center;
     padding: 35px;
+    gap: 20px;
 }
 
 .second-header {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .second-body {
     display: flex;
+    gap: 0px 75px;
 }
 
 .first-card,
@@ -138,8 +151,21 @@ button {
 .fourth-card {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
+.card img {
+    border: 5px solid #777a7e;
+}
+
+.second-text1,
+.second-text2,
+.second-text3,
+.second-text4 {
+    text-align: center;
+    width: 150px;
+    padding: 10px;
+}
 
 
