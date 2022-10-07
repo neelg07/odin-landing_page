@@ -12,7 +12,7 @@
 
 - Overall happy with producing a successfull web page
 
-- Found my flexbox integration in CSS to feel more normal and easy over time.
+- Found my flexbox integration in CSS to feel more normal and easy over time. HTML and CSS skills also coming easier and feels more fluid. 
 
 - Having issues with format changes in the first section when shrinking the window 
     i.e. The image containing div and text containing divs overlap and the wrapping is uneven.
